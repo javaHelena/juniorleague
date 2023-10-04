@@ -1,0 +1,15 @@
+micronaut:
+  application:
+    name: juniorleague
+
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/juniorleague
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: secret
+    # schema-generate: CREATE_DROP
+    # dialect: POSTGRES
+
+eventor:
+  api-key: "b05deb67157844d8bfd1f341555d70f2"
